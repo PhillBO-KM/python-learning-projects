@@ -1,6 +1,6 @@
 # Python Learning Projects
 
-Seven command-line projects from my progress through *100 Days of Code - The Complete Python Pro Bootcamp*.
+Eight command-line projects from my progress through *100 Days of Code - The Complete Python Pro Bootcamp*.
 These are learning exercises; their program behavior is preserved.
 
 | Day | Project | What it practices |
@@ -12,6 +12,7 @@ These are learning exercises; their program behavior is preserved.
 | 8 | [Caesar Cipher](caesar-cipher/main.py) | Functions, text processing, and modular arithmetic |
 | 9 | [Secret Auction](secret-auction/main.py) | Dictionaries and finding the highest bid |
 | 10 | [Calculator](calculator/main.py) | Functions, return values, dictionaries of functions, and input validation |
+| 11 | [Blackjack](blackjack/main.py) | Functions, return values, card scoring, loops, and input validation |
 
 ## Run a project
 
@@ -26,6 +27,7 @@ python hangman/main.py
 python caesar-cipher/main.py
 python secret-auction/main.py
 python calculator/main.py
+python blackjack/main.py
 ```
 
 On Windows, use `py` if `python` is unavailable. On macOS/Linux, you may need `python3`.
@@ -37,3 +39,5 @@ The Day 3, 4, and 5 entry files were renamed from `task.py` to `main.py` without
 Day 8 uses the third Caesar Cipher stage. Required art and word-list modules are included from the same project folders; these supporting assets may originate from the course.
 Solution files, course instructions, IDE metadata, and virtual environments are excluded.
 Input validation and other learning-stage behavior remain as originally written.
+
+Blackjack preserves my completed game logic from the Python Learning conversation, with chat formatting and indentation restored. Its original art module was not included in the conversation, so a simple text banner is supplied.
